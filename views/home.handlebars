@@ -1,5 +1,6 @@
-<h1>Daniel's Stackathon Project - DanbinHood</h1>
-<h3>I'm in home.handlebars</h3>
-<p>{{stock}}</p>
-<p>{{option}}</p>
-<p>wanna be option king</p>
+<h1>{{stock.companyName}} ({{stock.symbol}})</h1>
+</br>
+
+{{#each stock}}
+{{@key}} = {{this}} </br>
+{{/each}}
